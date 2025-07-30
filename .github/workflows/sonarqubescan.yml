@@ -12,7 +12,7 @@ jobs:
         with:
           java-version: 21
           cache: maven
-      - name: Build with maven cloud
+      - name: Build it with maven cloud
         run: mvn -B verify sonar:sonar -Dsonar.projectKey=sonudeepa_sonar-vulnerable-java-maven-master -Dsonar.organization=demogitactionsorganization -Dsonar.host.url=https://sonarcloud.io -Dsonar.token=$SONAR_TOKEN
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}}
