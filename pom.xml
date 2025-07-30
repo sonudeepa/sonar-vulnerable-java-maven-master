@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.scalesec</groupId>
-	<artifactId>vulnerable-java-maven</artifactId>
+	<artifactId>sonar-vulnerable-java-maven-master</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>vulnerable-java-maven</name>
+	<name>sonar-vulnerable-java-maven-master</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
